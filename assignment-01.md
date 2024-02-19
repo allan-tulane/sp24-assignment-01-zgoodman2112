@@ -26,23 +26,23 @@ $2^{2^n}$ is not in $O(2^n)$ because $2^{2^n}$ simplifies to $4^n$ which obvious
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
 . 
-$n^{1.01}$ is not in $O(\mathrm{log}^2 n)$ because since exponential functions grow faster than logarithmic functions, $n^{1.01}$ grows faster than $O(\mathrm{log}^2 n)$. Furthermore, there is no constant value C where $n^{1.01} <= C(\mathrm{log}^2 n)$.
+$n^{1.01}$ is not in $O(\mathrm{log}^2 n)$ because since polynomial functions grow faster than logarithmic functions, $n^{1.01}$ grows faster than $O(\mathrm{log}^2 n)$. Furthermore, there is no constant value C where $n^{1.01} <= C(\mathrm{log}^2 n)$.
 .  
 .  
 .  
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
 .  
-.  
+$n^{1.01}$ grows faster than $Omega(\mathrm{log}^2 n)$. Since this is the case, yes $n^{1.01} \in \Omega(\mathrm{log}^2 n)$.
 .  
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
 .  
-.  
+Similar to 1c, $\sqrt{n}$ is a polynomial function, and polynomial functions increase faster than logarithmic functions, which is what $O((\mathrm{log} n)^3)$ is. Also, since there is no constant C where $\sqrt{n} <= C((\mathrm{log} n)^3)$, $\sqrt{n}$ is NOT in $O((\mathrm{log} n)^3)$.
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
+Yes. Similar to 1d, since $\sqrt{n}$ grows faster than $Omega((\mathrm{log} n)^3)$, $\sqrt{n}$ is in $Omega((\mathrm{log} n)^3)$.
 
 
 2. **SPARC to Python** (12 pts)
