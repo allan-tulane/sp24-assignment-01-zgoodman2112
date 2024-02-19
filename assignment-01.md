@@ -21,7 +21,7 @@ Yes it is. This is because $2^{n+1}$ simplifies to $2*2^n$. Since we ignore cons
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
 .  
-$2^{2^n}$ is not in $O(2^n)$ because $2^{2^n}$ simplifies to $4^n$ which obviously grows faster than $2^n$. Since there is no number where $2^{2^n} <= 2^n$, $2^{2^n}$ is not in $O(2^n)$.
+$2^{2^n}$ is not in $O(2^n)$ because $2^{2^n}$ simplifies to $4^n$ which obviously grows faster than $2^n$. Since there is no value C where $2^{2^n} <= C*(2^n)$, $2^{2^n}$ is not in $O(2^n)$.
 .  
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
